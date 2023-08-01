@@ -37,5 +37,6 @@ int main(int argc, char *argv[]) {
     fclose(inputFile);
     fclose(outputFile);
 
+    printf("GCD values are stored in the output file %s\n", argv[2]);
     return 0;
 }
