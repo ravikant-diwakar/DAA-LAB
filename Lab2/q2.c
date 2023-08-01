@@ -30,12 +30,12 @@ int main(int argc, char *argv[]) {
     int num1, num2;
     while (fscanf(inputFile, "%d %d", &num1, &num2) == 2) {
         int result = gcd(num1, num2);
+        printf("The GCD of %d and %d is %d\n", num1, num2, result);
         fprintf(outputFile, "The GCD of %d and %d is %d\n", num1, num2, result);
     }
 
     fclose(inputFile);
     fclose(outputFile);
 
-    printf("GCD values are stored in the output file %s\n", argv[2]);
     return 0;
 }
