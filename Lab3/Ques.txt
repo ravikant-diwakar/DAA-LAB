@@ -1,0 +1,39 @@
+Lab Day 3: Fundamentals of Algorithmic Problem Solving (contd...)
+
+3.1 Aim of the program: Write a program to implement Binary Search to give the position of
+leftmost appearance of the element in the array being searched. Display the number of
+comparisons made while searching.
+Input:
+Enter size of array: 10
+Enter elements of the array: 2 3 7 7 7 11 12 12 20 50
+Enter the key to be searched: 7
+Output:
+7 found at index position 2
+Number of comparisons: 3
+
+
+3.2 Aim of the program: Write a menu driven program to sort a list of elements in ascending
+order using Insertion Sort technique. The nature of the input data is choice based and a distinct
+file is considered for each choice. The sorted elements can be stored in a separate output file.
+After sorting display the content of the output file along with number of comparisons. Based on
+the number of comparisons, conclude the input scenario is either best or worst case.
+Note#
+ Number of elements in each input file should vary from 300 to 500 entries.
+ For ascending order: Read data from a file “inAsce.dat” having content 10 20 30 40 .....,
+Store the result in “outInsAsce.dat”.
+ For descending order: Read data from a file “inDesc.dat” having content 90 80 70 60....,
+Store the result in “outInsDesc.dat”.
+ For random data: Read data from a file “inRand.dat” having content 55 66 33 11 44 ...,
+Store the result in “outInsRand.dat”
+Sample Input from file:
+MAIN MENU (INSERTION SORT)
+1. Ascending Data
+2. Descending Data
+3. Random Data
+4. ERROR (EXIT)
+Output:
+Enter option: 1
+Before Sorting: Content of the input file
+After Sorting: Content of the output file
+Number of Comparisons: Actual
+Scenario: Best or Worst-case
