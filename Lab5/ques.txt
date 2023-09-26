@@ -1,0 +1,40 @@
+Lab Day 5: Heap
+
+5.1 Aim of the program:
+Define a struct person as follows:
+struct person
+{
+int id;
+char *name;
+int age;
+int height;
+int weight;
+};
+
+
+Write a menu driven program to read the data of „n‟ students from a file and store them in a
+dynamically allocated array of struct person. Implement the min-heap or max-heap and its
+operations based on the menu options.
+
+
+Sample Input/Output:
+MAIN MENU (HEAP)
+1. Read Data
+2. Create a Min-heap based on the age
+3. Create a Max-heap based on the weight
+4. Display weight of the youngest person
+5. Insert a new person into the Min-heap
+6. Delete the oldest person
+7. Exit
+Enter option: 1
+Id Name Age Height Weight(pound)
+0 Adarsh Hota 39 77 231
+1 Levi Maier 56 77 129
+2 Priya Kumari 63 78 240
+3 Dorothy Helton 47 72 229
+4 Florence Smith 24 75 171
+5 Erica Anyan 38 73 102
+6 Norma Webster 23 75 145
+Enter option: 4
+Weight of youngest student: 65.77 kg
+Note#: Other menu choices are similarly verified.
