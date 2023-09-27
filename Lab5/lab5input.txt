@@ -1,0 +1,7 @@
+6
+John 25 175 70
+Alice 30 162 55
+Bob 22 180 75
+Emma 28 165 60
+Michael 35 190 85
+Sophia 29 170 63
