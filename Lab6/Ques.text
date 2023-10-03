@@ -1,0 +1,40 @@
+Lab Day 6: Greedy Techniques
+
+6.1 Aim of the program: Write a program to find the maximum profit nearest to but not
+exceeding the given knapsack capacity using the Fractional Knapsack algorithm.
+
+Notes# Declare a structure ITEM having data members item_id, item_profit, item_weight and
+profit_weight_ratio. Apply heap sort technique to sort the items in non-increasing order,
+according to their profit /weight.
+Input:
+
+Enter the number of items: 3
+Enter the profit and weight of item no 1: 27 16
+Enter the profit and weight of item no 2: 14 12
+Enter the profit and weight of item no 3: 26 13
+Enter the capacity of knapsack:18
+
+Output:
+
+Item No profit Weight Amount to be taken
+3 26.000000 13.000000 1.000000
+1 27.000000 16.000000 0.312500
+2 14.000000 12.000000 0.000000
+Maximum profit: 34.437500
+
+6.2Aim of the program: Huffman coding assigns variable length codewords to fixed length input
+characters based on their frequencies or probabilities of occurrence. Given a set of characters
+along with their frequency of occurrences, write a c program to construct a Huffman tree.
+
+Note#
+
+ Declare a structure SYMBOL having members alphabet and frequency. Create a Min-
+Priority Queue, keyed on frequency attributes.
+
+ Create an array of structures where size=number of alphabets.
+Input:
+Enter the number of distinct alphabets: 6
+Enter the alphabets: a b c d e f
+Enter its frequencies: 45 13 12 16 9 5
+Output:
+In-order traversal of the tree (Huffman): a c b f e d
