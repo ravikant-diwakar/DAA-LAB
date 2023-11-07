@@ -1,0 +1,31 @@
+Lab Day 8: Graph Algorithms - Graph traversal
+8.1 Aim of the program: Consider an undirected graph where each edge weights 2 units. Each of
+the nodes is labeled consecutively from 1 to n. The user will input a list of edges for describing
+an undirected graph. After representation of the graph, from a given starting position
+● Display the breadth-first search traversal.
+
+● Determine and display the shortest distance to each of the other nodes using the breadth-
+first search algorithm. Return an array of distances from the start node in node number
+
+order. If a node is unreachable, return -1 for that node.
+Input Format:
+ The first line contains two space-separated integers „n‟ and „m‟, the number of nodes and
+edges in the graph.
+ Each line „i‟ of the „m‟ subsequent lines contains two space-separated integers „u‟ and
+„v‟, that describe an edge between nodes „u‟ and „v‟.
+ The last line contains a single integer „s‟, the node number to start from.
+Output Format:
+ The first line shows the result of the BFS traversal.
+ The last line shows an array of distances from node „s‟ to all other nodes.
+
+Input:
+5 4
+1 2
+1 4
+4 5
+2 5
+1
+Output:
+
+BFS Traversal: 1 2 4 5
+Distance [2 -1 2 4]
